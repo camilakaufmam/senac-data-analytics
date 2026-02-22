@@ -1,0 +1,51 @@
+id_venda,data,vendedor,regiao,produto,categoria,quantidade,preco_unitario,desconto,forma_pagamento,cliente
+1,2024-01-05,Ana Silva,Sudeste,Notebook Dell,Eletronicos,2,3500.00,0.05,Cartao Credito,Empresa ABC
+2,2024-01-05,Carlos Santos,Sul,Mouse Logitech,Perifericos,10,89.90,0.00,PIX,Joao Oliveira
+3,2024-01-06,Ana Silva,Sudeste,Monitor LG 24,Eletronicos,3,899.00,0.10,Boleto,Tech Solutions
+4,2024-01-07,Maria Costa,Nordeste,Teclado Mecanico,Perifericos,5,250.00,0.00,Cartao Debito,Pedro Lima
+5,2024-01-08,Carlos Santos,Sul,Impressora HP,Eletronicos,1,1200.00,0.15,Cartao Credito,Escritorio XYZ
+6,2024-01-10,Roberto Alves,Centro-Oeste,Webcam Full HD,Perifericos,8,189.00,0.00,PIX,Maria Fernanda
+7,2024-01-10,Ana Silva,Sudeste,Notebook Lenovo,Eletronicos,1,4200.00,0.08,Cartao Credito,Startup Digital
+8,2024-01-12,Maria Costa,Nordeste,Headset Gamer,Perifericos,15,320.00,0.05,Boleto,Escola Futuro
+9,2024-01-12,Roberto Alves,Centro-Oeste,SSD 1TB,Armazenamento,20,380.00,0.12,PIX,DataCenter Plus
+10,2024-01-15,Carlos Santos,Sul,HD Externo 2TB,Armazenamento,7,450.00,0.00,Cartao Debito,Lucas Mendes
+11,2024-01-15,Ana Silva,Sudeste,Roteador WiFi 6,Redes,12,289.00,0.00,PIX,Empresa ABC
+12,2024-01-18,Maria Costa,Nordeste,Cabo HDMI 2m,Acessorios,50,25.00,0.20,Boleto,Loja Eletro
+13,2024-01-20,Roberto Alves,Centro-Oeste,Notebook Dell,Eletronicos,3,3500.00,0.10,Cartao Credito,Consultoria Tech
+14,2024-01-22,Carlos Santos,Sul,Mouse Logitech,Perifericos,25,89.90,0.05,PIX,Universidade Sul
+15,2024-01-22,Ana Silva,Sudeste,Monitor Samsung 27,Eletronicos,5,1450.00,0.08,Cartao Credito,Agencia Criativa
+16,2024-01-25,Maria Costa,Nordeste,Teclado Mecanico,Perifericos,8,250.00,0.00,Cartao Debito,Fernando Gomes
+17,2024-01-25,Roberto Alves,Centro-Oeste,Memoria RAM 16GB,Componentes,30,299.00,0.15,Boleto,Montadora PC
+18,2024-01-28,Ana Silva,Sudeste,Notebook Lenovo,Eletronicos,2,4200.00,0.05,Cartao Credito,Advocacia Lima
+19,2024-01-30,Carlos Santos,Sul,Webcam Full HD,Perifericos,6,189.00,0.00,PIX,Home Office Ltda
+20,2024-02-01,Maria Costa,Nordeste,SSD 500GB,Armazenamento,15,220.00,0.10,Cartao Credito,Clinica Saude
+21,2024-02-03,Roberto Alves,Centro-Oeste,Impressora Epson,Eletronicos,2,980.00,0.00,Boleto,Grafica Express
+22,2024-02-05,Ana Silva,Sudeste,Headset Bluetooth,Perifericos,20,180.00,0.05,PIX,Call Center SP
+23,2024-02-07,Carlos Santos,Sul,Roteador WiFi 6,Redes,4,289.00,0.00,Cartao Debito,Hotel Central
+24,2024-02-08,Maria Costa,Nordeste,Monitor LG 24,Eletronicos,6,899.00,0.12,Cartao Credito,Coworking Hub
+25,2024-02-10,Roberto Alves,Centro-Oeste,Cabo USB-C,Acessorios,100,18.00,0.25,PIX,Distribuidora Tech
+26,2024-02-12,Ana Silva,Sudeste,Notebook Dell,Eletronicos,4,3500.00,0.08,Cartao Credito,Banco Digital
+27,2024-02-14,Carlos Santos,Sul,Mouse Gamer,Perifericos,12,150.00,0.00,PIX,Arena Games
+28,2024-02-15,Maria Costa,Nordeste,HD Externo 4TB,Armazenamento,3,720.00,0.05,Boleto,Produtora Video
+29,2024-02-18,Roberto Alves,Centro-Oeste,Placa de Video,Componentes,5,2800.00,0.10,Cartao Credito,Estudio 3D
+30,2024-02-20,Ana Silva,Sudeste,Monitor Samsung 27,Eletronicos,8,1450.00,0.05,Cartao Credito,Arquitetura Moderna
+31,2024-02-22,Carlos Santos,Sul,Teclado Wireless,Perifericos,18,120.00,0.00,PIX,Escola Infantil
+32,2024-02-25,Maria Costa,Nordeste,Notebook Lenovo,Eletronicos,1,4200.00,0.00,Cartao Debito,Autonomo Silva
+33,2024-02-27,Roberto Alves,Centro-Oeste,SSD 2TB,Armazenamento,10,650.00,0.15,Boleto,Servidor Cloud
+34,2024-02-28,Ana Silva,Sudeste,Webcam 4K,Perifericos,7,350.00,0.05,PIX,Streaming Pro
+35,2024-03-01,Carlos Santos,Sul,Impressora HP,Eletronicos,3,1200.00,0.10,Cartao Credito,Contabilidade Sul
+36,2024-03-03,Maria Costa,Nordeste,Memoria RAM 32GB,Componentes,8,580.00,0.08,PIX,Workstation Lab
+37,2024-03-05,Roberto Alves,Centro-Oeste,Mouse Logitech,Perifericos,30,89.90,0.12,Boleto,Prefeitura Local
+38,2024-03-07,Ana Silva,Sudeste,Roteador Mesh,Redes,6,520.00,0.00,Cartao Credito,Condominio Verde
+39,2024-03-10,Carlos Santos,Sul,Headset Gamer,Perifericos,10,320.00,0.05,Cartao Debito,Lan House Max
+40,2024-03-12,Maria Costa,Nordeste,Notebook Dell,Eletronicos,2,3500.00,0.05,PIX,ONG Educacao
+41,2024-03-15,Roberto Alves,Centro-Oeste,Monitor LG 27,Eletronicos,4,1100.00,0.00,Cartao Credito,Design Studio
+42,2024-03-18,Ana Silva,Sudeste,Cabo Ethernet Cat6,Acessorios,200,8.50,0.30,Boleto,Instaladora Redes
+43,2024-03-20,Carlos Santos,Sul,SSD 1TB,Armazenamento,12,380.00,0.08,PIX,Revenda Informatica
+44,2024-03-22,Maria Costa,Nordeste,Teclado Mecanico RGB,Perifericos,6,380.00,0.00,Cartao Credito,Influencer Tech
+45,2024-03-25,Roberto Alves,Centro-Oeste,Notebook Lenovo,Eletronicos,3,4200.00,0.12,Cartao Credito,Engenharia Civil
+46,2024-03-27,Ana Silva,Sudeste,Webcam Full HD,Perifericos,15,189.00,0.05,PIX,Telemarketing SP
+47,2024-03-28,Carlos Santos,Sul,Placa Mae,Componentes,4,890.00,0.00,Boleto,Assistencia Tecnica
+48,2024-03-30,Maria Costa,Nordeste,Monitor Samsung 32,Eletronicos,2,1850.00,0.10,Cartao Debito,Fotografo Pro
+49,2024-03-30,Roberto Alves,Centro-Oeste,Mouse Vertical,Perifericos,20,95.00,0.00,PIX,Ergonomia Office
+50,2024-03-31,Ana Silva,Sudeste,HD Externo 2TB,Armazenamento,9,450.00,0.05,Cartao Credito,Backup Solutions
