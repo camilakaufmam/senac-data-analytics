@@ -1,0 +1,42 @@
+{
+  "turma": "Python Iniciante",
+  "semestre": "2025-1",
+  "alunos": [
+    {
+      "id": 1,
+      "nome": "Ana",
+      "nota": 8.5,
+      "aprovado": true
+    },
+    {
+      "id": 2,
+      "nome": "Bruno",
+      "nota": 6.0,
+      "aprovado": false
+    },
+    {
+      "id": 3,
+      "nome": "Carlos",
+      "nota": 9.2,
+      "aprovado": true
+    },
+    {
+      "id": 4,
+      "nome": "Diana",
+      "nota": 7.0,
+      "aprovado": true
+    },
+    {
+      "id": 5,
+      "nome": "Eduardo",
+      "nota": 4.5,
+      "aprovado": false
+    },
+    {
+      "id": 6,
+      "nome": "Fernanda",
+      "nota": 8.8,
+      "aprovado": true
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+id,vendedor,produto,categoria,quantidade,preco_unit,cidade
+1,Ana,Notebook,Eletrônico,2,3500.0,Rio de Janeiro
+2,Bruno,Mouse,Eletrônico,5,80.0,São Paulo
+3,Ana,Cadeira,Móvel,1,800.0,Rio de Janeiro
+4,Carlos,Monitor,Eletrônico,3,1200.0,Belo Horizonte
+5,Bruno,Mesa,Móvel,2,450.0,São Paulo
+6,Diana,Teclado,Eletrônico,8,150.0,Rio de Janeiro
+7,Carlos,Notebook,Eletrônico,1,3500.0,Belo Horizonte
+8,Ana,Mouse,Eletrônico,10,80.0,Rio de Janeiro
+9,Diana,Cadeira,Móvel,3,800.0,Curitiba
+10,Bruno,Monitor,Eletrônico,2,1200.0,São Paulo
+11,Carlos,Mesa,Móvel,4,450.0,Belo Horizonte
+12,Ana,Teclado,Eletrônico,6,150.0,Rio de Janeiro

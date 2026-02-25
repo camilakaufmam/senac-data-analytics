@@ -1,0 +1,9 @@
+Ana: 8.5
+Bruno: 6.0
+Carlos: 9.2
+Diana: 7.0
+Camila: 10.0
+Eduardo: 8.0
+Fernanda: 5.5
+Eduardo: 8.0
+Fernanda: 5.5

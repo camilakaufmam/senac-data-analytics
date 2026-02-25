@@ -72,4 +72,11 @@ fruta = ("maça","mamao", "limao")
 ```
 # DICIONARIO
 ```python
-#
+```
+
+# AULA 6
+```python
+# SEMPRE IRÁ USAR O "encoding='utf-8"
+with open('turma.json', 'r', encoding='utf-8') as f:
+
+```
