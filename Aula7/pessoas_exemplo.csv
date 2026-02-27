@@ -1,0 +1,7 @@
+nome,idade,cidade,salario,aprovado
+Ana,23,Rio de Janeiro,3500.0,True
+Bruno,31,Sao Paulo,5200.0,True
+Carol,28,Belo Horizonte,4800.0,True
+Diego,22,Rio de Janeiro,3200.0,False
+Eva,35,Curitiba,7100.0,True
+Fabio,29,Sao Paulo,4500.0,True
