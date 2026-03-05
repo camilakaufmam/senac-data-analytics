@@ -200,10 +200,49 @@ print('Resumo por vendedor:')
 ```
 
 
-```
 ## NUMPAY É ARRAY
 
 ```python
+
+
+```
+## GITHUB
+
+```python
+#Sempre escrever no terminal "git status" para saber o status
+# 7.5 Resumo: Quando criar cada branch?
+
+| Branch | Criada a partir de | Merge em | Quando usar |
+|---|---|---|---|
+| `feature/*` | `develop` | `develop` | Nova funcionalidade |
+| `release/*` | `develop` | `main` + `develop` | Preparar próxima versão |
+| `hotfix/*` | `main` | `main` + `develop` | Bug crítico em produção |
+| `bugfix/*` | `develop` | `develop` | Bug encontrado durante dev |
+
+### 7.6 Nomenclatura de Branches
+
+```bash
+# Padrão recomendado:
+feature/nome-descritivo        # nova funcionalidade
+feature/US-123-login-social    # com número da user story
+
+release/v1.2.0                 # sempre com versão semântica
+
+hotfix/descricao-curta         # descrição do bug
+hotfix/BUG-456-erro-pagamento  # com número do ticket
+
+bugfix/corrige-calculo-frete
+chore/atualiza-dependencias
+docs/adiciona-guia-instalacao
+
+#1º clonar repositório
+#2º criar uma feat (ou qualquer outra CONVENTIONAL COMMITS)
+#3º NO Sourch Control vai estar o arquivo alterado, clica no "+" que irá "gravar" a mudança e se precisar fazer outra ele vai criar outro "arquivo"
+#4º feito as mudanças, fazer o commit
+#5º fazer o Push
+#6º Vai aparecer no diretório as mudanças realizadas
+#7º A partir dai, será feito as validações e aceites
+
 
 
 ```
