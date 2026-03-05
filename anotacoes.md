@@ -160,9 +160,11 @@ resumo = vendas.groupby('vendedor').agg(
 ).round(2)
 
 print('Resumo por vendedor:')
+```
 
-## Resumo — Principais Funcoes
 
+# Resumo — Principais Funcoes - NUMPAY E PADAS
+```python
 ### NumPy
 
 | Funcao | Descricao |
@@ -195,7 +197,13 @@ print('Resumo por vendedor:')
 | `df['col'].dt.xxx` | Operacoes com datas |
 | `pd.pivot_table()`, `pd.crosstab()` | Tabelas cruzadas |
 
+```
 
+
+```
+## NUMPAY É ARRAY
+
+```python
 
 
 ```
