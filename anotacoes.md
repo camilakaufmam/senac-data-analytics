@@ -242,6 +242,7 @@ docs/adiciona-guia-instalacao
 #5º fazer o Push
 #6º Vai aparecer no diretório as mudanças realizadas
 #7º A partir dai, será feito as validações e aceites
+#8º estando tudo ok, faz o Merge
 
 
 
