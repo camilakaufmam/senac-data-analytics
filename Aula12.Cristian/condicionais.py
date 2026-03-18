@@ -32,13 +32,27 @@
 #senão, escreva "Você é um idoso";
 
 
-idade = int(input("Qual sua idade? "))
+# idade = int(input("Qual sua idade? "))
 
-if idade <= 12:
-    print("Você é um criança")
-elif idade <= 18:
-    print("Você é um adolescente")
-elif idade <=70:
-    print("Você é um adulto")
-else:
-    print("Você é um idoso")
+# if idade < 12:
+#     print("Você é um criança")
+# elif idade < 18:
+#     print("Você é um adolescente")
+# elif idade <70:
+#     print("Você é um adulto")
+# else:
+#     print("Você é um idoso")
+
+#EXERCICIO 4:
+#Crie um login simples:
+#usuário e senha
+
+usuario_cadastrado = "admin"
+senha_cadastrada = "1234"
+
+usuario = str(input("Digite seu usuário: "))
+senha = str(input("Digite sua senha: "))
+
+if usuario == usuario_cadastrado and senha == senha_cadastrada:
+    print(f"Acesso concedido!")
+else: print("Usuário ou Senha invalida")
