@@ -247,3 +247,7 @@ docs/adiciona-guia-instalacao
 
 
 ```
+## SQL
+
+```python
+#Ao colocar SELEC * -> Quer dizer para selecionar tudo
