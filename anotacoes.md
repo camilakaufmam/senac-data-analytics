@@ -251,3 +251,70 @@ docs/adiciona-guia-instalacao
 
 ```python
 #Ao colocar SELEC * -> Quer dizer para selecionar tudo
+
+```
+## AULA CRISTIAN
+
+lINK TEAMS:
+https://teams.microsoft.com/v2/
+
+SITE DADOS:
+https://www.kaggle.com/datasets
+
+Introdução a Analise de Dados
+Primeiros passos para criar um bom ambiente:
+#1. Criar o ambiente virtual (se ainda não existir)
+python -m venv venv
+ 
+#2. Ativar o ambiente virtual (Exemplo para Windows. Para Linux/macOS seria: source venv/bin/activate)
+.\venv\Scripts\activate
+ 
+#3. Instalar as bibliotecas necessárias
+pip install pandas openpyxl
+pip install pandas
+pip install numpy
+pip install matplotlib
+Obs.: tem que fazer import, ex.: import pandas as pd / import matplotlib.pyplot as plt
+ 
+#4. Gerar o arquivo de dependências (para replicabilidade do ambiente)
+pip freeze > requirements.txt
+
+
+#Limpar terminal
+
+
+
+ ->  Carregar a planilha Excel
+try:
+    df_vendas = pd.read_excel("vendas_dataorganized.xlsx")
+    print("\n--- DataFrame de Vendas Carregado ---")
+    print(df_vendas.head())
+
+    # Calcular o faturamento total (soma da coluna 'Faturamento_Total')
+    faturamento_total = df_vendas["Faturamento_Total"].sum()
+    print(f"\nFaturamento Total: R$ {faturamento_total:.2f}")
+
+    # Calcular a média de vendas (média da coluna 'Faturamento_Total')
+    media_vendas = df_vendas["Faturamento_Total"].mean()
+    print(f"Média de Vendas por Transação: R$ {media_vendas:.2f}")
+
+    # Exemplo adicional: Média de quantidade vendida
+    media_quantidade = df_vendas["Quantidade"].mean()
+    print(f"Média de Quantidade de Itens por Venda: {media_quantidade:.2f}")
+
+except FileNotFoundError:
+    print("Erro: O arquivo 'vendas_dataorganized.xlsx' não foi encontrado. Certifique-se de que está no mesmo diretório do script.")
+except Exception as e:
+    print(f"Ocorreu um erro ao processar o arquivo: {e}")
+
+-> FILTRAR : loc
+ex.: 
+vendas_sul = df_vendas.loc[df_vendas['Regiao'] == "Sul"]
+print(vendas_sul)
+
+-> FILTRAR DETERMINADA QUANTIDADE DE LINHAS: iloc
+ex.:Quero filtrar as 3 primeiras linhas:
+primeiras_linhas = df_vendas.iloc[0:3]
+print(primeiras_linhas)
+
+-> SELEÇÃO COM QUERY
