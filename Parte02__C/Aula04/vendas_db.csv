@@ -1,0 +1,31 @@
+ID_Venda,Data,Produto,Categoria,Quantidade,Preco_Unitario,Valor_Total,Vendedor,Regiao
+1,2026-01-05,Notebook,Eletrônicos,2,3500.00,7000.00,Ana,Sul
+2,2026-01-05,Mouse,Acessórios,5,80.00,400.00,Carlos,Sudeste
+3,2026-01-06,Teclado,Acessórios,3,150.00,450.00,Beatriz,Nordeste
+4,2026-01-06,Monitor,Eletrônicos,1,1200.00,1200.00,Ana,Sul
+5,2026-01-07,Webcam,Acessórios,4,100.00,400.00,Carlos,Sudeste
+6,2026-01-07,Smartphone,Eletrônicos,1,2500.00,2500.00,Beatriz,Nordeste
+7,2026-01-08,Fone de Ouvido,Acessórios,6,70.00,420.00,Ana,Sul
+8,2026-01-08,Tablet,Eletrônicos,2,1800.00,3600.00,Carlos,Sudeste
+9,2026-01-09,Impressora,Periféricos,1,800.00,800.00,Beatriz,Nordeste
+10,2026-01-09,SSD,Componentes,3,400.00,1200.00,Ana,Sul
+11,2026-01-10,Cadeira Gamer,Móveis,1,1500.00,1500.00,Carlos,Sudeste
+12,2026-01-10,Mesa Digitalizadora,Periféricos,1,600.00,600.00,Beatriz,Nordeste
+13,2026-01-11,Projetor,Eletrônicos,1,2000.00,2000.00,Ana,Sul
+14,2026-01-11,Roteador,Redes,2,250.00,500.00,Carlos,Sudeste
+15,2026-01-12,Câmera,Eletrônicos,1,1000.00,1000.00,Beatriz,Nordeste
+16,2026-01-12,Microfone,Acessórios,3,120.00,360.00,Ana,Sul
+17,2026-01-13,HD Externo,Componentes,2,300.00,600.00,Carlos,Sudeste
+18,2026-01-13,Webcam,Acessórios,2,100.00,200.00,Beatriz,Nordeste
+19,2026-01-14,Notebook,Eletrônicos,1,3500.00,3500.00,Ana,Sul
+20,2026-01-14,Mouse,Acessórios,3,80.00,240.00,Carlos,Sudeste
+21,2026-01-15,Teclado,Acessórios,2,150.00,300.00,Beatriz,Nordeste
+22,2026-01-15,Monitor,Eletrônicos,1,1200.00,1200.00,Ana,Sul
+23,2026-01-16,Smartphone,Eletrônicos,1,2500.00,2500.00,Carlos,Sudeste
+24,2026-01-16,Fone de Ouvido,Acessórios,4,70.00,280.00,Beatriz,Nordeste
+25,2026-01-17,Tablet,Eletrônicos,1,1800.00,1800.00,Ana,Sul
+26,2026-01-17,Impressora,Periféricos,1,800.00,800.00,Carlos,Sudeste
+27,2026-01-18,SSD,Componentes,2,400.00,800.00,Beatriz,Nordeste
+28,2026-01-18,Cadeira Gamer,Móveis,1,1500.00,1500.00,Ana,Sul
+29,2026-01-19,Mesa Digitalizadora,Periféricos,1,600.00,600.00,Carlos,Sudeste
+30,2026-01-19,Projetor,Eletrônicos,1,2000.00,2000.00,Beatriz,Nordeste
