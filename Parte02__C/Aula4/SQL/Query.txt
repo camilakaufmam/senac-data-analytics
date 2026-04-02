@@ -1,0 +1,33 @@
+CREATE TABLE produtos (
+    ID_Produto INT PRIMARY KEY AUTO_INCREMENT,
+    Nome_Produto VARCHAR(255) NOT NULL,
+    Preco_Unitario DECIMAL(10, 2) NOT NULL
+);
+
+CREATE TABLE vendedores (
+    ID_Vendedor INT PRIMARY KEY AUTO_INCREMENT,
+    Nome_Vendedor VARCHAR(255) NOT NULL,
+    Regiao VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE vendas (
+    ID_Venda INT PRIMARY KEY AUTO_INCREMENT,
+    Data_Venda DATE NOT NULL,
+    Quantidade INT NOT NULL,
+    ID_Produto INT NOT NULL,
+    ID_Vendedor INT NOT NULL,
+    FOREIGN KEY (ID_Produto) REFERENCES produtos(ID_Produto),
+    FOREIGN KEY (ID_Vendedor) REFERENCES vendedores(ID_Vendedor)
+);
+
+
+1. Importação dos Dados
+
+• Importar produtos.csv para a tabela produtos.
+
+• Importar vendedores.csv para a tabela vendedores.
+
+• Importar vendas_relacional.csv para a tabela vendas.
+
+(Lembrar de configurar separador , e delimitador " no PhpMyAdmin para CSVs)
+

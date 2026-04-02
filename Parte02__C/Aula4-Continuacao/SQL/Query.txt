@@ -1,0 +1,48 @@
+CREATE TABLE produtos (
+    ID_Produto INT PRIMARY KEY AUTO_INCREMENT,
+    Nome_Produto VARCHAR(255) NOT NULL,
+    Preco_Unitario DECIMAL(10, 2) NOT NULL
+);
+
+CREATE TABLE vendedores (
+    ID_Vendedor INT PRIMARY KEY AUTO_INCREMENT,
+    Nome_Vendedor VARCHAR(255) NOT NULL,
+    Regiao VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE vendas (
+    ID_Venda INT PRIMARY KEY AUTO_INCREMENT,
+    Data_Venda DATE NOT NULL,
+    Quantidade INT NOT NULL,
+    ID_Produto INT NOT NULL,
+    ID_Vendedor INT NOT NULL,
+    FOREIGN KEY (ID_Produto) REFERENCES produtos(ID_Produto),
+    FOREIGN KEY (ID_Vendedor) REFERENCES vendedores(ID_Vendedor)
+);
+
+------------------------------------------------------02/04-------------------------------------------------------
+
+CREATE TABLE clientes_novo (
+    ID_Cliente INT PRIMARY KEY AUTO_INCREMENT,
+    Nome_Cliente VARCHAR(255) NOT NULL,
+    Email VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE pedidos (
+    ID_Pedido INT PRIMARY KEY AUTO_INCREMENT,
+    ID_Cliente INT NOT NULL,
+    Data_Pedido DATE NOT NULL,
+    Valor_Total_Pedido DECIMAL(10, 2) NOT NULL,
+    FOREIGN KEY (ID_Cliente) REFERENCES clientes_novo(ID_Cliente)
+);
+
+CREATE TABLE itens_pedido (
+    ID_ItemPedido INT PRIMARY KEY AUTO_INCREMENT,
+    ID_Pedido INT NOT NULL,
+    ID_Produto INT NOT NULL, 
+    Quantidade INT NOT NULL,
+    Preco_Unitario DECIMAL(10, 2) NOT NULL,
+    FOREIGN KEY (ID_Pedido) REFERENCES pedidos(ID_Pedido),
+    FOREIGN KEY (ID_Produto) REFERENCES produtos(ID_Produto)
+);
+
