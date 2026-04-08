@@ -1,0 +1,11 @@
+ID_Produto,Nome_Produto,Categoria,Preco_Tabela
+1,Notebook Gamer X,Eletrônicos,5500.00
+2,Monitor Ultrawide,Eletrônicos,1800.00
+3,Teclado Mecânico RGB,Acessórios,450.00
+4,Mouse Gamer Pro,Acessórios,250.00
+5,Fone de Ouvido Bluetooth,Eletrônicos,300.00
+6,Webcam Full HD,Acessórios,150.00
+7,SSD 1TB NVMe,Componentes,700.00
+8,Memória RAM 16GB,Componentes,400.00
+9,Cadeira Gamer Ergonômica,Móveis,1200.00
+10,Mesa para Escritório,Móveis,800.00
