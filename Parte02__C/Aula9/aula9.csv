@@ -1,0 +1,61 @@
+ID_Venda,ID_Produto,Nome_Produto,Categoria,Quantidade,Preco_Venda,Data_Venda,Vendedor,Filial
+1,101,Notebook Pro,Hardware,1,4500.00,2024-03-01,Ana,SP
+2,102,Mouse Wireless,Perifericos,2,150.00,2024-03-01,Bruno,RJ
+3,103,Licença Office,Software,1,400.00,2024-03-02,Carlos,MG
+4,101,Notebook Pro,Hardware,1,4500.00,2024-03-02,Ana,SP
+5,104,Monitor 24",Hardware,1,1200.00,2024-03-03,Carlos,MG
+6,102,Mouse Wireless,Perifericos,1,150.00,2024-03-03,Bruno,RJ
+7,105,Roteador Wi-Fi 6,Redes,1,600.00,2024-03-04,Bruno,RJ
+8,101,Notebook Pro,Hardware,1,4500.00,2024-03-04,Ana,SP
+9,106,Teclado Mecânico,Perifericos,1,350.00,2024-03-05,Carlos,MG
+10,107,SSD 1TB,Hardware,2,550.00,2024-03-05,Ana,SP
+11,102,Mouse Wireless,Perifericos,10,140.00,2024-03-06,Bruno,RJ
+12,101,Notebook Pro,Hardware,1,4500.00,2024-03-06,Ana,SP
+13,108,Antivírus Anual,Software,5,150.00,2024-03-07,Carlos,MG
+14,109,Cabo HDMI 2.0,Acessorios,3,80.00,2024-03-07,Bruno,RJ
+15,110,Webcam 4K,Perifericos,1,850.00,2024-03-08,Carlos,MG
+16,101,Notebook Pro,Hardware,1,4500.00,2024-03-08,Ana,SP
+17,102,Mouse Wireless,Perifericos,1,150.00,2024-03-09,Bruno,RJ
+18,103,Licença Office,Software,1,400.00,2024-03-09,Carlos,MG
+19,101,Notebook Pro,Hardware,1,4500.00,2024-03-10,Ana,SP
+20,104,Monitor 24",Hardware,1,1200.00,2024-03-10,Carlos,MG
+21,102,Mouse Wireless,Perifericos,1,150.00,2024-03-11,Bruno,RJ
+22,105,Roteador Wi-Fi 6,Redes,1,600.00,2024-03-11,Bruno,RJ
+23,101,Notebook Pro,Hardware,1,4500.00,2024-03-12,Ana,SP
+24,106,Teclado Mecânico,Perifericos,1,350.00,2024-03-12,Carlos,MG
+25,107,SSD 1TB,Hardware,1,550.00,2024-03-13,Ana,SP
+26,102,Mouse Wireless,Perifericos,1,150.00,2024-03-13,Bruno,RJ
+27,101,Notebook Pro,Hardware,1,4500.00,2024-03-14,Ana,SP
+28,108,Antivírus Anual,Software,1,150.00,2024-03-14,Carlos,MG
+29,109,Cabo HDMI 2.0,Acessorios,1,80.00,2024-03-15,Bruno,RJ
+30,110,Webcam 4K,Perifericos,1,850.00,2024-03-15,Carlos,MG
+31,101,Notebook Pro,Hardware,1,4500.00,2024-03-16,Ana,SP
+32,102,Mouse Wireless,Perifericos,1,150.00,2024-03-16,Bruno,RJ
+33,103,Licença Office,Software,1,400.00,2024-03-17,Carlos,MG
+34,101,Notebook Pro,Hardware,1,4500.00,2024-03-17,Ana,SP
+35,104,Monitor 24",Hardware,1,1200.00,2024-03-18,Carlos,MG
+36,102,Mouse Wireless,Perifericos,1,150.00,2024-03-18,Bruno,RJ
+37,105,Roteador Wi-Fi 6,Redes,1,600.00,2024-03-19,Bruno,RJ
+38,101,Notebook Pro,Hardware,1,4500.00,2024-03-19,Ana,SP
+39,106,Teclado Mecânico,Perifericos,1,350.00,2024-03-20,Carlos,MG
+40,107,SSD 1TB,Hardware,1,550.00,2024-03-20,Ana,SP
+41,102,Mouse Wireless,Perifericos,1,150.00,2024-03-21,Bruno,RJ
+42,101,Notebook Pro,Hardware,1,4500.00,2024-03-21,Ana,SP
+43,108,Antivírus Anual,Software,1,150.00,2024-03-22,Carlos,MG
+44,109,Cabo HDMI 2.0,Acessorios,1,80.00,2024-03-22,Bruno,RJ
+45,110,Webcam 4K,Perifericos,1,850.00,2024-03-23,Carlos,MG
+46,101,Notebook Pro,Hardware,1,4500.00,2024-03-23,Ana,SP
+47,102,Mouse Wireless,Perifericos,1,150.00,2024-03-24,Bruno,RJ
+48,103,Licença Office,Software,1,400.00,2024-03-24,Carlos,MG
+49,101,Notebook Pro,Hardware,1,4500.00,2024-03-25,Ana,SP
+50,104,Monitor 24",Hardware,1,1200.00,2024-03-25,Carlos,MG
+51,101,Notebook Pro,Hardware,1,4500.00,2024-03-26,Ana,SP
+52,101,Notebook Pro,Hardware,1,4500.00,2024-03-27,Ana,SP
+53,101,Notebook Pro,Hardware,1,4500.00,2024-03-28,Ana,SP
+54,101,Notebook Pro,Hardware,1,4500.00,2024-03-29,Ana,SP
+55,101,Notebook Pro,Hardware,1,4500.00,2024-03-30,Ana,SP
+56,102,Mouse Wireless,Perifericos,1,150.00,2024-03-31,Bruno,RJ
+57,102,Mouse Wireless,Perifericos,1,150.00,2024-03-31,Bruno,RJ
+58,102,Mouse Wireless,Perifericos,1,150.00,2024-03-31,Bruno,RJ
+59,102,Mouse Wireless,Perifericos,1,150.00,2024-03-31,Bruno,RJ
+60,102,Mouse Wireless,Perifericos,1,150.00,2024-03-31,Bruno,RJ
