@@ -254,33 +254,38 @@ docs/adiciona-guia-instalacao
 
 ```
 ## AULA CRISTIAN
-
+link drive: https://drive.google.com/drive/folders/1dr-KkS_8z8u-r9muWgELEEbKiIvKBWB9 
 lINK TEAMS:
 https://teams.microsoft.com/v2/
 
 SITE DADOS:
 https://www.kaggle.com/datasets
 
-Introdução a Analise de Dados
+*** Introdução a Analise de Dados ***
 Primeiros passos para criar um bom ambiente:
-#1. Criar o ambiente virtual (se ainda não existir)
+
+#1. Criar o ambiente virtual (se ainda não existir):
 python -m venv venv
  
 #2. Ativar o ambiente virtual (Exemplo para Windows. Para Linux/macOS seria: source venv/bin/activate)
+Para Windows:
 .\venv\Scripts\activate
  
 #3. Instalar as bibliotecas necessárias
-pip install pandas openpyxl
+pip install pandas 
+pip install openpyxl  (para ler arquivo excel/csv)
 pip install pandas
 pip install numpy
 pip install matplotlib
 Obs.: tem que fazer import, ex.: import pandas as pd / import matplotlib.pyplot as plt
- 
+pip install mysql-connector-python
+
 #4. Gerar o arquivo de dependências (para replicabilidade do ambiente)
 pip freeze > requirements.txt
 
-
-#Limpar terminal
+#5. Para relacionar ao MySQL
+Tem instalar XAMP e PHPmyadmin (VERIFICAR ARQUIVO DRIVE)
+Depois abrir: localhost/phpmyadmin no navegador
 
 
 
@@ -302,6 +307,8 @@ try:
     media_quantidade = df_vendas["Quantidade"].mean()
     print(f"Média de Quantidade de Itens por Venda: {media_quantidade:.2f}")
 
+    #  print(df_final.columns) para verificar as colunas
+
 except FileNotFoundError:
     print("Erro: O arquivo 'vendas_dataorganized.xlsx' não foi encontrado. Certifique-se de que está no mesmo diretório do script.")
 except Exception as e:
@@ -318,3 +325,46 @@ primeiras_linhas = df_vendas.iloc[0:3]
 print(primeiras_linhas)
 
 -> SELEÇÃO COM QUERY
+
+
+
+ ->       Confiabilidade da média:
+Distancia = (media - mediana)/mediana
+
+->        Calcular Média e Mediana
+media = np.mean(vendas_produto_x)
+mediana = np.median(vendas_produto_x)
+print(f"Média: {media:.2f}")
+print(f"Mediana: {mediana:.2f}")
+
+->      Calcular 1º Quartil
+q1 = df_final['Faturamento'].quantile(0.25)  #faturamento é a coluna
+
+->      Calcular 2º Quartil
+q3 = df_final['Faturamento'].quantile(0.75)
+
+->      Intervalo Interquartil 
+(IQR = Q3 - Q1)
+
+->           Calcular a Distância
+distancia = (media - mediana) / mediana
+print(f"Distância (Média vs Mediana): {distancia:.2%}")
+
+-> Outliers = resultados que se desviam significativamente das demais, pontos atípicos que não seguem padão da maioria
+
+
+# IMPORTAR TABELAS
+
+                    PARA CSV:
+ import pandas as pd
+df = pd.DataFrame()
+
+df_clientes = pd.read_csv('satisfacao_clientes.csv')
+print(df_clientes.describe())
+
+                    PARA EXCEL:
+import pandas as pd
+df = pd.DataFrame()
+
+df_clientes = pd.read_excel('satisfacao_clientes.csv')
+print(df_clientes.describe())
