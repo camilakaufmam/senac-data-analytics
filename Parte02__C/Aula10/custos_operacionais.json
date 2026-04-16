@@ -1,0 +1,20 @@
+{
+    "SP": {
+        "Aluguel": 15000.0,
+        "Energia": 2500.0,
+        "Marketing": 8000.0,
+        "Logistica": 5000.0
+    },
+    "RJ": {
+        "Aluguel": 12000.0,
+        "Energia": 3000.0,
+        "Marketing": 10000.0,
+        "Logistica": 7000.0
+    },
+    "MG": {
+        "Aluguel": 8000.0,
+        "Energia": 1800.0,
+        "Marketing": 5000.0,
+        "Logistica": 3000.0
+    }
+}
