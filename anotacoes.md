@@ -356,7 +356,7 @@ print(f"Distância (Média vs Mediana): {distancia:.2%}")
 # IMPORTAR TABELAS
 
                     PARA CSV:
- import pandas as pd
+import pandas as pd
 df = pd.DataFrame()
 
 df_clientes = pd.read_csv('satisfacao_clientes.csv')
@@ -368,3 +368,68 @@ df = pd.DataFrame()
 
 df_clientes = pd.read_excel('satisfacao_clientes.csv')
 print(df_clientes.describe())
+
+# EXEMPLO:  IMPORTAR TABELAS E COLUNA DE UMA ARQUIVO - MEDIA - MEDIANA - DESVIO PADRÃO
+
+import pandas as pd
+
+df = pd.read_csv('aula9.csv')                    -> VAI IMPORTAR ESSA TABELA
+#print(df.head)                                  -> VAI TRAZER AS 5 PRIMEIRAS LINHAS
+
+print("Analise Preço Vendas")
+preco_venda = df['Preco_Venda']                  ->Para trazer a coluna "Preco_Venda"
+print(preco_venda)                               -> Vai printar só as informações dessa colunna
+
+print(f"Media: {preco_venda.mean():.2f}")        -> MEDIA
+print(f"Mediana: {preco_venda.median():.2f}")    -> MEDIANA  
+print(f"Devio Padrão: {preco_venda.std():.2f}")  -> DESVIO PADRÃO 
+
+#           ASSIMETRIA EXEMPLO:
+
+assimetria_preco_venda = preco_venda.skew()
+print(f"Assimetria (Preço de venda): {assimetria_preco_venda:.2f}")
+
+#Interpretação da Assimetria
+if -0.5 <= assimetria_preco_venda <= 0.5:
+    print("Distribuição Simétrica (Média próxima da Mediana")
+elif assimetria_preco_venda > 0.5:
+    print("Distribuição Assimétrica Positiva (Média > Mediana)")
+else:
+    print("Distribuição Assimétrica Negativa (Média < Mediana)")    
+
+
+#       IMPORTAR O BANCO DE DADOS SQL 
+
+#1º:  import sqlite3
+#2º Fazer conecção:  
+        connection = sqlite3.connect('NomedaPasta.db')
+        cursor = connection.cursor()
+
+                #QUERY necessária para rodar:
+        cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name != 'sqlite_sequence'")   
+        tabelas = cursor.fetchall()
+        print(tabelas)
+OBS.: O "AND name != 'sqlite_sequence' Esta dizendo que é pra trazer tabelas diferentes (!=) da tabela de nome 'sqlite_sequence'. Ou seja, não trazer a tabela 'sqlite_sequence'.
+
+
+#      TRABALHANDO COM JSON:
+
+#1 IMPORTANDO JSON:
+      import json
+
+#2 LENDO O ARQUIVO JSON:
+     with open("custos_operacionais.json", "r", encoding="utf-8") as arquivo:
+         custos_json = json.load(arquivos)
+
+#3 TRANSFORMANDO EM DATAFRAME
+
+df_custos = pd.DataFrame(custos_json).T.reset_index()   
+print(df_custos)
+
+OBS.: o "T" significa transpor
+OBS2.: "reset_index()" faz criar o nome da coluna para os dados que não tem titulo
+OBS3: PARA RENOMEAR O TITULO (colocar outro nome ao invés de "index):
+        
+        df_custos = pd.DataFrame(custos_json).T.reset_index()    #"T" significa transpor
+        df_custos.rename(columns={"index":"filial"}, inplace = True) #código que trocar o nome "index"
+        print(df_custos
